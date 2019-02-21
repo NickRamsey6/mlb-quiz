@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>MLB Team Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which MLB Team Should You Root For?</h1>
+      <form id ="mlbQuiz">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="radio">
+          <label for="care">Do you care if your team wins or loses?</label>
+          <select class="form-control" id="care">
+            <option></option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </div>
+        <div class="radio">
+          <label for="pride">Do you take personal pride in the accomplishments of others</label>
+          <select class="form-control" id="pride">
+            <option></option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+          </select>
+        </div>
+        <div class="radio">
+          <label for="pc">What are your thoughts on political correctness?</label>
+          <select class="form-control" id="pc">
+            <option></option>
+            <option value="love">love it</option>
+            <option value="hate">hate it</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">Results!</button>
+        <div id="resultbox">
+          <h1>Congrats your new favorite baseball team is: <span id="result"></span></h1>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
