@@ -1,7 +1,3 @@
-var team = "Cardinals";
-
-// console.log(team);
-
 $(document).ready(function() {
   $('form#mlbQuiz').submit(function(event) {
     var age = parseInt($('input#age').val());
@@ -29,8 +25,6 @@ $(document).ready(function() {
       $('#Rays').show();
     }
 
-    // $('#result').append(team);
-    // $('#resultbox').show();
     event.preventDefault();
 
   })
