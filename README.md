@@ -6,7 +6,7 @@
 
 ## Description
 
-_For my second code review, I have prepared a webpage with a survey questions to help the user select a Major League Baseball team to root for <a href="https://nickramsey6.github.io/programming-portfolio/">Link Here</a>_
+_For my second code review, I have prepared a webpage with a survey questions to help the user select a Major League Baseball team to root for <a href="https://nickramsey6.github.io/mlb-quiz/">Link Here</a>_
 
 ## Setup/Installation Requirements
 
@@ -14,12 +14,13 @@ _For my second code review, I have prepared a webpage with a survey questions to
 * _Click the site link_
 * _Explore_
 * _Clone the repo_
+* _git clone https://github.com/NickRamsey6/mlb-quiz.git _
 
 
 ## Known Bugs
 
-_Seems to be an issue with data being submitted to nowhere, there is a "?" in the url_
-_If you do not refresh the page, and keep hitting the results button, results will stack on top of each other_
+* _Seems to be an issue with data being submitted to nowhere, there is a "?" in the url_
+* _If you do not refresh the page, and keep hitting the results button, results will stack on top of each other_
 
 
 ## Support and contact details
