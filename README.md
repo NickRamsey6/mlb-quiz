@@ -14,7 +14,7 @@ _For my second code review, I have prepared a webpage with a survey questions to
 * _Click the site link_
 * _Explore_
 * _Clone the repo_
-* _git clone https://github.com/NickRamsey6/mlb-quiz.git _
+* git clone https://github.com/NickRamsey6/mlb-quiz.git
 
 
 ## Known Bugs
