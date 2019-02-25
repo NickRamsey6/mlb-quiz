@@ -15,6 +15,10 @@
           <label for="name">Name:</label>
           <input id="name" class="form-control" type="text">
         </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input id="age" class="form-control" type="text">
+        </div>
         <div class="radio">
           <label for="care">Do you care if your team wins or loses?</label>
           <select class="form-control" id="care">
@@ -24,7 +28,7 @@
           </select>
         </div>
         <div class="radio">
-          <label for="pride">Do you take personal pride in the accomplishments of others</label>
+          <label for="pride">Do you take personal pride in the accomplishments of others?</label>
           <select class="form-control" id="pride">
             <option></option>
             <option value="yes">yes</option>
@@ -38,6 +42,26 @@
             <option value="love">love it</option>
             <option value="hate">hate it</option>
           </select>
+        </div>
+        <div class="radio">
+          <label for="fight">When was the last time you were in a fight?</label>
+          <br>
+          <label>
+            <input type="radio" name="fight" value="never" checked>
+            Never
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fight" value="during">
+            During This Quiz
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fight" value="youth">
+            In My Younger Days
+          </label>
         </div>
         <button type="submit" class="btn">Results!</button>
         <div id="resultbox">
