@@ -1,3 +1,36 @@
 #resultbox {
   display: none;
 }
+#Mariners {
+  display: none;
+}
+.pic {
+  height: 200px;
+  width: 30%;
+}
+#Cubs {
+  display: none;
+}
+#Yankees {
+  display: none;
+}
+#Indians {
+  display: none;
+}
+#Dodgers {
+  display: none;
+}
+#Rays {
+  display: none;
+}
+.questionPic {
+  height: 500px;
+  width: 50%;
+}
+.logo {
+  height: 500px;
+  width: 60%;
+}
+body {
+  background-color: red
+}

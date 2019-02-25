@@ -11,26 +11,26 @@ $(document).ready(function() {
     var fight = $("input:radio[name=fight]:checked").val();
 
     if(age>=50) {
-      var team ="Cubs";
+       $('#Cubs').show();
     }
     else if (care ==='no') {
-       var team = "Mariners";
+       $('#Mariners').show();
     }
     else if (pride ==='yes') {
-      var team = "Yankees";
+     $('#Yankees').show();
     }
     else if (pc ==='hate') {
-      var team = "Indians";
+      $('#Indians').show();
     }
     else if (fight ==='during') {
-      var team = "Dodgers";
+      $('#Dodgers').show();
     }
     else {
-      var team = "Rays"
+      $('#Rays').show();
     }
 
-    $('#result').append(team);
-    $('#resultbox').show();
+    // $('#result').append(team);
+    // $('#resultbox').show();
     event.preventDefault();
 
   })
